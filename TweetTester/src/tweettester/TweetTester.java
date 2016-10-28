@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.lang.Math; 
 /**
  * @class  AP CSA
- * @author INSERT YOUR NAME HERE
+ * @author Nate Dix
  */
 public class TweetTester {
 
@@ -17,9 +17,12 @@ public class TweetTester {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        String tweet = "";
         Scanner scan = new Scanner (System.in);
-         String tweet;
+   
+         tweet += scan.nextLine();
+         
+         System.out.println(tweet.length());
          
     }
     
